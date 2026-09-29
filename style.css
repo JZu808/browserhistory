@@ -1,0 +1,14 @@
+body {
+  background-color: ivory;
+  color: navy;
+  font-family: 'Open Sans', sans-serif;
+  margin: 40px;
+}
+
+h1, h2 {
+  font-family: 'Oswald', sans-serif;
+}
+
+a {
+  color: blue;
+}
