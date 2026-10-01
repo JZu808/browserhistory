@@ -1,40 +1,68 @@
+/* Book background and fixed page size */
 body {
-  font-family: 'Open Sans', sans-serif;
-  color: DarkBlue;
-  background-color: Ivory;
-  margin: 10px 50px;
+  background-image: url('https://courses.ics.hawaii.edu/ics314f26/morea/ui-basics/page.gif');
+  background-repeat: no-repeat;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  margin: 40px 320px 200px 250px;
+  width: 475px;
+  line-height: 175%;
 }
 
+/* Heading font */
 h1, h2 {
   font-family: 'Oswald', sans-serif;
 }
 
+/* Centers the logos */
 img {
-  float: left;
-  margin-right: 10px;
+  margin: 0px auto 10px auto;
+  display: block;
 }
 
-/* Horizontal navigation bar */
-.navbar {
+/* Contents list with no bullets, large bold text */
+ul {
   list-style-type: none;
-  margin: 0;
-  padding: 10px;
-  background-color: DarkBlue;
+  padding: 0;
+  line-height: 350%;
+  font-size: 30px;
+  font-weight: bold;
 }
 
-.navbar li {
-  display: inline;
-  margin-right: 20px;
+/* Puts each list item on its own line */
+li {
+  display: block;
 }
 
-.navbar a {
-  color: Ivory;
-  text-decoration: none;
+/* Space between "Chapter 1:" and the link */
+.label {
+  display: inline-block;
+  width: 190px;
 }
 
-/* Three side-by-side columns */
-.left, .center, .right {
+/* Script font for the title and Contents heading */
+h1.fancy {
+  font-family: 'Edwardian Script ITC', 'Style Script', cursive;
+  font-size: 50pt;
+  text-align: center;
+  line-height: 135%;
+}
+
+/* Centered chapter headings */
+h2.chapter {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30pt;
+  text-align: center;
+}
+
+/* "prev" link on the left */
+a.left {
   float: left;
-  width: 300px;
-  margin-right: 20px;
+  font-weight: bold;
+}
+
+/* "next" link on the right */
+a.right {
+  float: right;
+  font-weight: bold;
 }
