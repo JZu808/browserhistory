@@ -9,18 +9,16 @@ body {
   line-height: 175%;
 }
 
-/* Heading font */
 h1, h2 {
   font-family: 'Oswald', sans-serif;
 }
 
-/* Centers the logos */
+
 img {
   margin: 0px auto 10px auto;
   display: block;
 }
 
-/* Contents list with no bullets, large bold text */
 ul {
   list-style-type: none;
   padding: 0;
@@ -29,40 +27,34 @@ ul {
   font-weight: bold;
 }
 
-/* Puts each list item on its own line */
 li {
   display: block;
 }
 
-/* Space between "Chapter 1:" and the link */
 .label {
   display: inline-block;
   width: 190px;
 }
 
-/* Script font for the title and Contents heading */
 h1.fancy {
-  font-family: 'Edwardian Script ITC', 'Style Script', cursive;
-  font-size: 50pt;
-  text-align: center;
-  line-height: 135%;
+    font-family: Edwardian Script ITC; 
+    font-size: 50pt; 
+    text-align: center;
+    line-height: 135%;
 }
 
-/* Centered chapter headings */
 h2.chapter {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 30pt;
-  text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30pt;
+    text-align: center;
 }
 
-/* "prev" link on the left */
 a.left {
-  float: left;
-  font-weight: bold;
+    float: left;
+    font-weight: bold;
 }
 
-/* "next" link on the right */
 a.right {
-  float: right;
-  font-weight: bold;
+    float: right;
+    font-weight: bold;
 }
