@@ -2,7 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: DarkBlue;
   background-color: Ivory;
-  margin: 10px 50px;   
+  margin: 10px 50px;
 }
 
 h1, h2 {
@@ -10,6 +10,31 @@ h1, h2 {
 }
 
 img {
-  float: left;         
+  float: left;
   margin-right: 10px;
+}
+
+/* Horizontal navigation bar */
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  background-color: DarkBlue;
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navbar a {
+  color: Ivory;
+  text-decoration: none;
+}
+
+/* Three side-by-side columns */
+.left, .center, .right {
+  float: left;
+  width: 300px;
+  margin-right: 20px;
 }
